@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=PT+Serif&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.header-card {
+    z-index: 1;
+    width: 350px;
+    height: 130px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background: linear-gradient(90deg, rgba(242,148,150,1) 0%, rgba(253,119,29,1) 50%, rgba(252,87,69,0.9864320728291317) 100%);
+}
+
+.card-1{
+    width: 350px;
+    height: 540px;
+    border: 1px solid black;
+    box-shadow: 5px 15px 15px rgba(17, 16, 16, 0.1);
+    border-radius: 20px;
+}
+
+.imagem, .media-icon{
+    z-index: 1;
+}
+
+.media-icon a{
+    margin-right: 10px;
+    color:black;
+}
+
+.nome{
+    font-size: 25px;
+    font-family: 'PT Serif', serif;
+}
+
+.profissao{
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+}
+
+.rating i{
+    color:rgb(255, 255, 37);
+}
